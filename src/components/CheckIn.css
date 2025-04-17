@@ -1,0 +1,121 @@
+
+.cat{
+    margin: 10px 2px 0px ;
+    background-color:#bddaf4;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* border: 1px solid #fff; */
+    display:inline-block;
+  }
+
+  .cat label {
+    float: left;
+    line-height: 2em;
+    width: 9.5em; height: 9.5em;
+  }
+
+  .cat label span {
+    text-align: center;
+    padding: 11px;
+    display: block;
+    color:#51a2e1;
+    border-radius: 5px;
+  }
+
+  .cat label input {
+    position: absolute;
+    display: none;
+    color: rgb(41, 76, 204) !important;
+  }
+
+  input:checked + span{
+    color: #ffffff;
+    /* padding: 14px; */
+    text-shadow: 5px 5px  5px rgba(68, 122, 208, 0.628);
+    font-weight: bold;
+    box-shadow: rgb(198, 176, 122) 0px 0px 0px 2px, rgb(255, 255, 255) 0px 4px 6px -1px, rgba(249, 249, 249, 0.08) 0px 1px 0px inset;
+  }
+
+  .checkboxes .cat img {
+    width: 98px;
+    
+  }
+
+.labels {
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 15px;
+  }
+  
+  .input-tab {
+    display: flex;
+    text-align: left;
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  .input-field {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 20px 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgba(248, 250, 251, 0.835);
+
+  }
+
+  .checkboxes {
+    text-align: center;
+  }
+
+  .checkboxes .dropdown {
+    display: inline-block;
+    margin: 10px 0px 10px 0;
+  }
+
+  .checkboxes select{
+    background-color: #a5c9f2;
+    border-radius: 5px;
+    float:right;
+    color: #fff;
+  }
+  
+  .button {
+    text-align: center;
+  }
+
+  .button .btn-primary{
+    background-color: #7abdf0;
+    padding: 5px 30px;
+    margin-top: 10px;
+
+  }
+
+  .employee-selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 500px){
+    .cat label {
+      float: left; 
+      line-height: 0.8em;
+      width: 6.5em; height: 6.5em;
+    }
+    .checkboxes .cat img {
+      margin-top: 5px;
+      width: 61px;
+      
+    }
+  }
+
+

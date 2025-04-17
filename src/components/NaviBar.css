@@ -1,0 +1,9 @@
+.top {
+    position: sticky;
+    top:0;
+    background-color:#448fc8;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}

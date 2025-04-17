@@ -1,0 +1,50 @@
+
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;} */
+  
+  #customers th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    background-color: #7abdf0;
+    color: white;
+    position: sticky;
+    top: 55px;
+    z-index: 1;
+  }
+
+  .head .input {
+    margin: 10px 20px;
+    border: none;
+    
+  }
+
+  .grayout{
+    color: rgb(70, 70, 70);
+    background-color: rgba(192, 191, 191, 0.306);
+  }
+
+  @media screen and (max-width: 500px){
+    th{
+      font-size: 10px;
+    }
+    td{
+      font-size: 10px;
+    }
+  }
